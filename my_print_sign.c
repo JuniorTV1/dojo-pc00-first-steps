@@ -12,4 +12,5 @@ void my_print_sign(int n)
         sign = 0;
 
     write(1, &sign, 1);
+    write(1, "\n", 1);
 }
