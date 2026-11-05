@@ -2,5 +2,10 @@
 
 void my_putnbr(int n)
 {
-    write(1, &n, 1);
+
+ if (n < 0)
+     {
+        write(1, "0", 1);
+     }
+
 }
