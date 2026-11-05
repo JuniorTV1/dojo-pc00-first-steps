@@ -10,4 +10,6 @@ void my_print_sign(int n)
         sign = 1;
     else 
         sign = 0;
+
+    write(1, &sign, 1);
 }
