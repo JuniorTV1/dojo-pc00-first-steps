@@ -2,7 +2,7 @@
 
 void my_print_sign(int n)
 {
-    int sign;
+    void sign;
     
     if (n < 0)
         sign = -1;
